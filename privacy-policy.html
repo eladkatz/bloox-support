@@ -21,7 +21,7 @@
 </head>
 <body>
     <h1>Bloox &mdash; Privacy Policy</h1>
-    <p class="date">Effective date: March 8, 2026</p>
+    <p class="date">Effective date: April 4, 2026</p>
 
     <h2>Overview</h2>
     <p>Bloox is an audiobook player for iOS. Your privacy is important to us. This policy explains what data the app accesses, how it is used, and what is shared with third parties.</p>
@@ -43,15 +43,17 @@
 
     <h2>Third-Party Services</h2>
     <p>Bloox uses the Google Books API to fetch cover art for your audiobooks. Only the book title is sent in these requests &mdash; no personal information is included.</p>
+    <p>Bloox also uses an external service to identify characters in your audiobooks. When this feature runs, the <strong>book title and author name</strong> are sent to a server to retrieve character data. No audio, transcription content, or personal information is included in these requests.</p>
 
     <h2>Crash &amp; Error Reporting</h2>
-    <p>Bloox uses <strong>Firebase Crashlytics</strong> (provided by Google) to collect crash reports and non-fatal error logs. This helps us identify and fix bugs. The data sent to Crashlytics may include:</p>
+    <p>Bloox uses <strong>Firebase Crashlytics</strong> (provided by Google) to collect crash reports and non-fatal error logs. This helps us identify and fix bugs quickly. The data sent to Crashlytics may include:</p>
     <ul>
         <li>Device model, OS version, and app version</li>
         <li>Stack traces and error messages generated at the time of a crash or error</li>
         <li>A random installation identifier (not tied to your identity)</li>
+        <li>Audiobook titles associated with the error (e.g., which book was being processed when a failure occurred)</li>
     </ul>
-    <p>Crashlytics does <strong>not</strong> collect your name, email, audiobook titles, playback history, or any other personal content. You can learn more about how Google handles Crashlytics data in <a href="https://firebase.google.com/support/privacy">Firebase&rsquo;s privacy documentation</a>.</p>
+    <p>This data is used <strong>solely for diagnosing and fixing bugs</strong>. It is anonymous &mdash; Crashlytics does not collect your name, email, Apple ID, playback history, or any other information that identifies you personally. Book titles are included only to help us reproduce and fix errors affecting specific content. You can learn more about how Google handles Crashlytics data in <a href="https://firebase.google.com/support/privacy">Firebase&rsquo;s privacy documentation</a>.</p>
 
     <h2>Analytics and Tracking</h2>
     <p>Bloox does not include any user-behavior analytics, advertising SDKs, or tracking of any kind. The only data sent externally is crash and error reports as described above.</p>
