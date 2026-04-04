@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bloox - Support</title>
+    <title>Bloox &mdash; Audiobook Player for iOS</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -16,6 +16,10 @@
         h1 { font-size: 1.8rem; }
         h2 { font-size: 1.3rem; margin-top: 2rem; }
         p { margin: 0.8rem 0; }
+        .intro { margin-bottom: 1.5rem; }
+        .features { padding-left: 1.2rem; margin: 0.8rem 0; }
+        .features li { margin: 0.3rem 0; }
+        .data-use { background: #f7f7f7; border-radius: 8px; padding: 1rem 1.2rem; margin: 1rem 0; }
         a.button {
             display: inline-block;
             background: #007AFF;
@@ -29,12 +33,29 @@
         a.button:hover { background: #0056CC; }
         .faq dt { font-weight: 600; margin-top: 1rem; }
         .faq dd { margin: 0.3rem 0 1rem 0; }
+        footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #ddd; font-size: 0.9rem; color: #666; }
+        footer a { color: #007AFF; }
     </style>
 </head>
 <body>
-    <h1>Bloox &mdash; Support</h1>
+    <h1>Bloox</h1>
+    <p class="intro"><strong>Bloox</strong> is an audiobook player for iOS. Import your audiobook files from Google Drive or iCloud and enjoy a full-featured listening experience &mdash; with complete privacy, no accounts, no ads, and no tracking.</p>
 
-    <h2>Need help?</h2>
+    <h2>Features</h2>
+    <ul class="features">
+        <li>Import audiobooks from <strong>Google Drive</strong> or the iOS Files app</li>
+        <li>Chapter navigation, playback speed control, and a bedtime-friendly sleep timer</li>
+        <li>On-device <strong>AI transcription</strong> powered by Apple&rsquo;s speech recognition</li>
+        <li><strong>&ldquo;What Did I Miss?&rdquo;</strong> &mdash; AI summaries of recent playback via Apple Intelligence</li>
+        <li>Support for M4B, MP3, multi-file books, and CUE chapter markers</li>
+    </ul>
+
+    <div class="data-use">
+        <strong>How Bloox uses your Google data</strong>
+        <p>If you choose to import audiobooks from Google Drive, Bloox requests read-only access to browse your folders and download the files you select. The app never modifies, deletes, or accesses any files beyond your explicit selection. Your Google credentials are managed entirely by Google&rsquo;s Sign-In SDK and are never stored by the app. For full details, see our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+    </div>
+
+    <h2>Support</h2>
     <p>If you're experiencing an issue or have feedback, we'd love to hear from you.</p>
     <p><a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLScQodow-XkxpDteH2wAj6BYuWvRsZMKeA_DGY7FpH9K9tBLcw/viewform?usp=dialog">Submit a Support Request</a></p>
 
@@ -50,7 +71,7 @@
         <dd>Bloox supports M4B (MPEG-4 Audio Book) and MP3 files. Multi-file books (one MP3 per chapter) and CUE files for chapter information are also supported.</dd>
 
         <dt>How can I listen to my Audible books in Bloox?</dt>
-        <dd>Bloox plays audiobook files you already own — it doesn&rsquo;t connect to Audible directly. If you&rsquo;ve purchased audiobooks on Audible, you can use <a href="https://getlibation.com">Libation</a> (free, open-source, available for Mac, Windows, and Linux) to download your purchased library as standard M4B files. Libation handles the entire process: it logs into your Audible account, downloads your books, and saves them in a format Bloox can play. Once you have the M4B files, import them into Bloox via Google Drive or iCloud.<br><br>Alternatively, if you run a home media server, <a href="https://www.audiobookshelf.org">Audiobookshelf</a> (free, self-hosted) can manage your audiobook library and export files in a compatible format.<br><br>This is the same approach used by dedicated audiobook players like Prologue. Your purchased audiobooks are yours &mdash; Bloox simply gives you a better way to listen to them.</dd>
+        <dd>Bloox plays audiobook files you already own &mdash; it doesn&rsquo;t connect to Audible directly. If you&rsquo;ve purchased audiobooks on Audible, you can use <a href="https://getlibation.com">Libation</a> (free, open-source, available for Mac, Windows, and Linux) to download your purchased library as standard M4B files. Libation handles the entire process: it logs into your Audible account, downloads your books, and saves them in a format Bloox can play. Once you have the M4B files, import them into Bloox via Google Drive or iCloud.<br><br>Alternatively, if you run a home media server, <a href="https://www.audiobookshelf.org">Audiobookshelf</a> (free, self-hosted) can manage your audiobook library and export files in a compatible format.<br><br>This is the same approach used by dedicated audiobook players like Prologue. Your purchased audiobooks are yours &mdash; Bloox simply gives you a better way to listen to them.</dd>
 
         <dt>How do I import books from Google Drive?</dt>
         <dd>Go to your library, tap the import button, and choose Google Drive. Sign in with your Google account, then browse or search for your audiobook files. Bloox only accesses the files you explicitly select.</dd>
@@ -61,5 +82,9 @@
         <dt>The sleep timer screen is very dark &mdash; is that intentional?</dt>
         <dd>Yes! The sleep timer uses a low-brightness dark design specifically to be gentle on your eyes when listening at bedtime.</dd>
     </dl>
+
+    <footer>
+        <a href="privacy-policy.html">Privacy Policy</a> &middot; <a href="https://docs.google.com/forms/d/e/1FAIpQLScQodow-XkxpDteH2wAj6BYuWvRsZMKeA_DGY7FpH9K9tBLcw/viewform?usp=dialog">Contact Support</a>
+    </footer>
 </body>
 </html>
